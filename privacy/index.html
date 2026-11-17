@@ -24,14 +24,15 @@
 <main>
 <nav><a href="../">Talekeeper</a> · <a href="../support/">Support</a></nav>
 <h1>Talekeeper Privacy Policy</h1>
-<p class="meta">Effective date: 13 November 2026<br>Contact: <a href="mailto:novelstudio.support@gmail.com">novelstudio.support@gmail.com</a></p>
+<p class="meta">Effective date: 17 November 2026<br>Contact: <a href="mailto:novelstudio.support@gmail.com">novelstudio.support@gmail.com</a></p>
 
 <h2>Summary</h2>
 <p>Talekeeper is a writing app for iPhone and iPad. Your projects are stored on your device.</p>
 <ul>
   <li>There is no Talekeeper account and no Talekeeper server.</li>
   <li>Talekeeper does not collect, sell or share your personal data.</li>
-  <li>The app contains no advertising, analytics or tracking code, and it does not collect identifiers.</li>
+  <li>The app contains no advertising, analytics, crash-reporting or tracking code, and it does not collect
+    identifiers.</li>
   <li>Talekeeper sends information to another service only when you choose to use one: an AI service you set up, or
     a research search you start.</li>
 </ul>
@@ -67,16 +68,34 @@ back into Talekeeper, and nothing is added to your story until you review it.</p
 text needed for an AI task you start to that server only. Talekeeper never switches to a cloud AI service on its own.</p>
 
 <h2>Optional cloud AI with your own key</h2>
-<p>You can connect a cloud AI provider using your own account and API key. If you do:</p>
+<p>You can connect a cloud AI provider using your own account and API key. Talekeeper has built-in support for
+<strong>Anthropic</strong> (Claude) and <strong>Google Gemini</strong>, and it can also connect to another AI service
+that uses an OpenAI-compatible interface, including one running on your own computer, if you enter its address
+yourself. Nothing is connected until you connect it, and there is no default provider. If you do connect one:</p>
 <ul>
   <li>Talekeeper sends that provider the content needed for an AI task <strong>you start</strong>: your instructions
     and the related parts of your story.</li>
   <li>It asks for your permission before it first sends anything to a provider. It never sends story content from
     projects you mark Private or Offline, and it never falls back to a cloud provider automatically.</li>
+  <li>You can withdraw that permission at any time, one provider at a time, in
+    <strong>Settings &rsaquo; AI &rsaquo; Privacy and AI activity</strong>: tap <strong>Revoke</strong> beside the
+    provider. Talekeeper then sends that provider nothing until you allow it again. Removing the provider altogether
+    also deletes its API key from your device's Keychain. Content a provider has already received is covered by that
+    provider's own policy, so ask the provider to delete it there.</li>
   <li>Your API key is stored in your device's Keychain and is sent only to that provider.</li>
   <li>The provider processes the content under its own privacy policy and terms, and under your agreement with it.
-    Retention, human review and use for training depend on the provider and on your plan with it; some free plans allow
-    the provider to use content to improve its services. Please read the terms of the provider you choose.</li>
+    Retention, human review and use for training depend on the provider and on your plan with it. Please read the terms
+    of the provider you choose.</li>
+  <li>Talekeeper adds no terms of its own to that relationship and takes no rights over your writing. It asks the
+    provider only to answer the request you started, keeps no copy outside your device, and shares your content with
+    no one else. Because the account and the key are yours, the protection your writing receives is the protection in
+    that provider's own terms for the plan you are on &mdash; which is why your permission is asked before anything is
+    sent, and why you can withdraw it at any time.</li>
+  <li><strong>Free plans can differ.</strong> Paid API use generally excludes your content from training, while some
+    providers' free or experimental tiers allow them to use what you submit to improve their services and models.
+    Google states this difference for the Gemini API explicitly. If you do not want your manuscript used that way,
+    use a paid API plan, mark the project Private or Offline, or write without cloud AI &mdash; every feature in
+    Talekeeper works without it.</li>
 </ul>
 
 <h2>Research</h2>
@@ -92,6 +111,10 @@ text needed for an AI task you start to that server only. Talekeeper never switc
 </ul>
 <p>These services may keep ordinary server logs, such as your IP address and the request, under their own privacy
 policies.</p>
+<p>Some links in Talekeeper open a web page: a research result or source you tap, and the help, support and policy
+links. Depending on the link, the page opens inside the app in a Safari view or in your own browser. Either way you
+are then on someone else's website, under their privacy policy, and that site can see your request as any website
+does. Talekeeper adds nothing of yours to those addresses.</p>
 
 <h2>Photos and files</h2>
 <p>Images you add are chosen with the system picker, so Talekeeper does not need access to your whole photo library.
